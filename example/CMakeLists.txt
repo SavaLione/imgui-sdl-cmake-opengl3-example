@@ -17,14 +17,12 @@ message(STATUS "Build type: " ${CMAKE_BUILD_TYPE})
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
-
 # Libraries dependencies
 find_package(OpenGL REQUIRED)
 find_package(SDL2 REQUIRED)
 
 # Example executable
 add_executable(${PROJECT_NAME} src/main.cpp)
-
 
 # OpenGL
 target_link_libraries(${PROJECT_NAME} ${OPENGL_gl_LIBRARY})
