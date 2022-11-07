@@ -20,7 +20,7 @@ $ make
 
 ### Build options
 * ``IMGUI_BUILD_SHARED`` (default: ``ON``): Build shared library
-* ``IMGUI_BUILD_EXAMPLE`` (default: ``OFF``): Build shared library
+* ``IMGUI_BUILD_EXAMPLE`` (default: ``OFF``): Build example
 
 ## Project structure
 |File/Path                                        |Description                                                        |
